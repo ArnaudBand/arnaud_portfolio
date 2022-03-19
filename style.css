@@ -1,0 +1,210 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.container-section {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.container-background {
+  background-color: #fff;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 100px;
+}
+
+.container-flex a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: #6070ff;
+}
+
+.container-flex button {
+  color: #6070ff;
+  border: none;
+}
+
+.anim {
+  position: relative;
+}
+
+.anim .animation-div {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
+
+.anim .animation div {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(175, 124, 223);
+}
+
+.anim .animation-div div:first-child {
+  height: 25px;
+  width: 4px;
+  background-color: rgb(194, 151, 235);
+  transform: rotate(150deg);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.anim .animation-div div:last-child {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(175, 124, 223);
+}
+
+.anim .animation {
+  position: absolute;
+  top: 90px;
+  left: 210px;
+  z-index: -1;
+}
+
+.anim .animation-main {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 0;
+}
+
+.anim .animation-main div:first-child {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(114, 89, 138);
+  transform: rotate(140deg);
+  position: absolute;
+  top: -35px;
+  left: 4px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.anim .animation-main div:last-child {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(158, 184, 233);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: rotate(200deg);
+}
+
+.anim .animation-bottom {
+  position: absolute;
+  top: 200px;
+  right: 80px;
+}
+
+.anim .animation-bottom div:first-child {
+  height: 30px;
+  width: 4px;
+  background-color: rgb(194, 151, 235);
+  transform: rotate(150deg);
+  position: absolute;
+  top: -15px;
+  left: 25px;
+}
+
+.anim .animation-bottom div:last-child {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgba(151, 200, 245, 0.424);
+}
+
+.anim .animation-double {
+  position: absolute;
+  right: 50%;
+  top: 40px;
+}
+
+.anim .animation-double div:first-child {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(114, 89, 138);
+  transform: rotate(140deg);
+  position: absolute;
+  top: -35px;
+  left: -24px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.anim .animation-double div:last-child {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(158, 184, 233);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: rotate(200deg);
+}
+
+.anim .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .text-myName {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #172b4d;
+  font-weight: 700;
+  margin-top: 90px;
+  z-index: 99;
+}
+
+.anim .container .text-identification {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #344563;
+  margin: 10px 0;
+  z-index: 99;
+}
+
+.anim .container .flex-container .fa-brands {
+  font-size: 15px;
+  padding: 0 8px;
+  margin: 15px 0;
+}
+
+.container a {
+  text-decoration: none;
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.container a:hover {
+  background-color: bisque;
+  color: black;
+}
