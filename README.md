@@ -1,4 +1,5 @@
-## Portfolio: Mobile version
+
+# Portfolio: Mobile version
 
 The project composes of the mobile version of my personal portfolio. The projects experience is displayed using grid. The flexbox is also used on child cards.
 
