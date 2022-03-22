@@ -331,6 +331,10 @@ body {
   color: #344563;
 }
 
+.contact {
+  list-style: none;
+}
+
 .about .contact {
   text-decoration: none;
   color: #7f8cff;
@@ -414,7 +418,7 @@ body {
 .contact_form {
   padding-top: 103px;
   border-top-left-radius: 90px;
-  background: #6070FF url('./Image/backgroundImages.png') 153px 21px;
+  background: #6070ff url('./Image/backgroundImages.png') 153px 21px;
   background-size: 200px 640px;
   background-repeat: no-repeat;
 }
@@ -437,7 +441,7 @@ body {
 
 .contact-paragraph {
   font-family: "Poppins", sans-serif;
-  color: #EBEBFF;
+  color: #ebebff;
   padding: 10px;
   line-height: 25px;
 }
@@ -445,10 +449,6 @@ body {
 form {
   width: 280px;
   margin: 0 auto;
-}
-
-.contact {
-  list-style: none;
 }
 
 .form-contact {
@@ -472,14 +472,14 @@ form {
   border: none;
 }
 
-.contact-form  .btn {
+.contact-form .btn {
   border: none;
 }
 
 .bottom-div {
   height: 5px;
   width: 140px;
-  background-color: #0D151E;
+  background-color: #0d151e;
   margin: 0 auto;
   border-radius: 5px;
 }
