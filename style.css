@@ -1,3 +1,5 @@
+/* stylelint-disable block-closing-brace-empty-line-before */
+/* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable no-missing-end-of-source-newline */
 * {
   margin: 0;
@@ -13,6 +15,7 @@ body {
 .container-background {
   background: url(./Image/DesktopBackground.jpg);
   background-size: cover;
+  background-position: center;
   padding: 25px 155px 200px 155px;
   border-bottom-left-radius: 70px;
   margin-bottom: 50px;
@@ -42,11 +45,6 @@ body {
 .container-flex button {
   display: none;
 }
-
-/* .anim {
-  max-width: 920px;
-  margin: 0 auto;
-} */
 
 .container {
   display: flex;
@@ -88,19 +86,18 @@ body {
 .btn {
   padding: 8px;
   border-radius: 5px;
-  margin: 8px 0;
   transition: all 0.5s;
   border: 2px solid #7f8cff;
   color: #6070ff;
   font-size: 18px;
   font-weight: 500;
   background-color: #fff;
+  margin: 20px 0;
 }
 
 .btn:hover {
   background-color: #6070ff;
 }
-
 
 .grid-container {
   display: flex;
@@ -135,11 +132,14 @@ body {
   align-items: center;
 }
 
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
 .responsive-backgroundImage {
   height: 250px;
   width: 350px;
   margin: 10px;
-  /* margin: 0 auto; */
 }
 
 .responsive-backgroundImage img {
@@ -269,7 +269,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   margin: 0 20px 0 0;
   padding: 10px;
@@ -281,7 +281,6 @@ body {
 }
 
 .contact_form {
-  margin-top: 30px;
   padding-top: 103px;
   border-top-left-radius: 90px;
   background: #6070ff url('./Image/contactBackground.png');
@@ -357,13 +356,13 @@ form > textarea {
     padding: 10px;
     background-color: #fff;
   }
-  
+
   .container-background {
     background-color: #fff;
     padding: 20px 20px 20px 20px;
     margin-bottom: 100px;
   }
-  
+
   .container-flex a {
     text-decoration: none;
     font-size: 18px;
@@ -375,17 +374,17 @@ form > textarea {
   .container-flex .top-link {
     display: none;
   }
-  
+
   .container-flex button {
     display: block;
     color: #6070ff;
     border: none;
   }
-  
+
   .anim {
     position: relative;
   }
-  
+
   .anim .container {
     display: flex;
     justify-content: center;
@@ -394,7 +393,7 @@ form > textarea {
     background-size: 315px 462px;
     background-repeat: no-repeat;
   }
-  
+
   .container .text-myName {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
@@ -403,7 +402,7 @@ form > textarea {
     margin-top: 90px;
     z-index: 99;
   }
-  
+
   .anim .container .text-identification {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -412,13 +411,13 @@ form > textarea {
     margin: 10px 0;
     z-index: 99;
   }
-  
+
   .anim .container .flex-container .fa-brands {
     font-size: 15px;
     padding: 0 8px;
     margin: 15px 0;
   }
-  
+
   .container a {
     text-decoration: none;
     color: #7f8cff;
@@ -429,18 +428,18 @@ form > textarea {
     border-radius: 10px;
     transition: all 1s;
   }
-  
+
   .container a:hover {
     background-color: bisque;
     color: black;
   }
-  
+
   .grid-container {
     display: flex;
     margin: 5px 0;
     list-style: none;
   }
-  
+
   .skills {
     text-decoration: none;
     background-color: #ebebff;
@@ -450,14 +449,14 @@ form > textarea {
     font-size: 13px;
     margin-right: 10px;
   }
-  
+
   .grid-container-card {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 70px;
     margin-bottom: 10px;
   }
-  
+
   .grid-card {
     background-color: white;
     padding: 15px 5px;
@@ -466,27 +465,27 @@ form > textarea {
     display: flex;
     flex-direction: column;
   }
-  
+
   .responsive-backgroundImage {
     margin: 0 auto;
   }
-  
+
   .responsive-backgroundImage img {
     height: 100%;
     width: 100%;
   }
-  
+
   .identification {
     margin: 15px 10px;
     font-family: sans-serif;
   }
-  
+
   .identification h3 {
     font-weight: 600;
     font-size: 30px;
     margin: 10px 0;
   }
-  
+
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -496,16 +495,16 @@ form > textarea {
     margin-left: 20px;
 
   }
-  
+
   .flex-container .title-bolder {
     margin: 10px 0;
   }
-  
+
   .flex-container .title-non-bolder {
     margin: 10px 0;
     color: rgb(148, 147, 147);
   }
-  
+
   .flex-container .point {
     width: 5px;
     height: 5px;
@@ -513,12 +512,12 @@ form > textarea {
     border-radius: 50%;
     margin: 0;
   }
-  
+
   .text p {
     margin: 5px 0;
     color: rgb(63, 64, 62);
   }
-  
+
   /* Adding padding to the button. */
   .btn {
     padding: 8px;
@@ -531,12 +530,12 @@ form > textarea {
     font-weight: 500;
     background-color: #fff;
   }
-  
+
   .btn:hover {
     background-color: #6070ff;
     color: #fff;
   }
-  
+
   .about {
     background-color: #fff;
     margin-top: 40px;
@@ -547,30 +546,30 @@ form > textarea {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .about h2 {
     padding-top: 75px;
     margin-bottom: 20px;
     color: #172b4d;
     font-size: 40px;
   }
-  
+
   .about p {
     margin-bottom: 10px;
     font-size: 16px;
     color: #344563;
   }
-  
+
   .contact {
     list-style: none;
   }
-  
+
   .about .contact {
     text-decoration: none;
     color: #7f8cff;
     font-size: 16px;
   }
-  
+
   .grid-icons {
     display: flex;
     justify-content: space-between;
@@ -578,14 +577,14 @@ form > textarea {
     padding: 10px 0;
     color: #505f79;
   }
-  
+
   .grid-languages {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     padding: 15px;
   }
-  
+
   .list-item {
     display: flex;
     justify-content: space-between;
@@ -599,19 +598,18 @@ form > textarea {
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     margin: 10px 0;
     width: 300px;
   }
-  
+
   /* stylelint-disable-next-line no-descending-specificity */
   .list-item a {
     text-decoration: none;
     color: black;
   }
-  
-  
+
   .contact_form {
     padding-top: 103px;
     border-top-left-radius: 90px;
@@ -619,14 +617,14 @@ form > textarea {
     background-size: 200px 640px;
     background-repeat: no-repeat;
   }
-  
+
   .contact-div {
     padding: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .contact-h2 {
     text-align: center;
     text-transform: capitalize;
@@ -635,20 +633,20 @@ form > textarea {
     padding-bottom: 20px;
     font-size: 40px;
   }
-  
+
   .contact-paragraph {
     font-family: "Poppins", sans-serif;
     color: #ebebff;
     padding: 10px;
     line-height: 25px;
   }
-  
+
   form {
     width: 280px;
     margin: 0 auto;
     padding-bottom: 10px;
   }
-  
+
   form > input {
     width: 100%;
     padding: 15px;
@@ -656,18 +654,18 @@ form > textarea {
     border: none;
     margin: 0 0 15px 0;
   }
-  
+
   form > textarea {
     border-radius: 4px;
     width: 100%;
     padding: 15px;
     border: none;
   }
-  
+
   .contact-btn {
     border: none;
   }
-  
+
   .bottom-div {
     height: 5px;
     width: 130px;
@@ -676,4 +674,3 @@ form > textarea {
     margin: 0 auto;
   }
 }
-
