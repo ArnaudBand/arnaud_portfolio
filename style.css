@@ -202,7 +202,7 @@ body {
   padding: 5px 10px;
   width: fit-content;
   border-radius: 10px;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .container a:hover {
@@ -267,15 +267,14 @@ body {
   justify-content: left;
   align-items: center;
   font-weight: 800;
+  font-size: 11px;
 }
 
 .flex-container .title-bolder {
-  font-size: 11px;
   margin: 10px 0;
 }
 
 .flex-container .title-non-bolder {
-  font-size: 11px;
   margin: 10px 0;
   color: rgb(148, 147, 147);
 }
@@ -286,7 +285,6 @@ body {
   background-color: gray;
   border-radius: 50%;
   margin: 0 15px;
-  color: rgb(148, 147, 147);
 }
 
 .text p {
@@ -322,7 +320,6 @@ body {
 
 .about h2 {
   padding-top: 75px;
-  margin-top: 30px;
   margin-bottom: 20px;
   color: #172b4d;
   font-size: 40px;
@@ -332,6 +329,10 @@ body {
   margin-bottom: 10px;
   font-size: 16px;
   color: #344563;
+}
+
+.contact {
+  list-style: none;
 }
 
 .about .contact {
@@ -353,7 +354,6 @@ body {
   flex-direction: column;
   margin-top: 10px;
   padding: 15px;
-  border-radius: 10px;
 }
 
 .list-item {
@@ -397,30 +397,13 @@ body {
   margin-bottom: 10px;
 }
 
-.list-item:nth-child(2) i {
-  font-size: 30px;
-  color: black;
-}
-
-.list-item:nth-child(3) i {
-  font-size: 30px;
-  color: black;
-}
-
-.list-item:nth-child(4) i {
-  font-size: 30px;
-  color: black;
-}
-
 .list-item:nth-child(1) {
   width: 250px;
-  font-weight: 500;
 }
 
 .list-item:nth-child(6) {
   width: 250px;
   height: 50px;
-  font-weight: 500;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
 }
@@ -428,7 +411,70 @@ body {
 .list-item:nth-child(5) {
   width: 250px;
   height: 50px;
-  font-weight: 500;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+}
+
+.contact_form {
+  padding-top: 103px;
+  border-top-left-radius: 90px;
+  background: #6070ff url('./Image/backgroundImages.png') 153px 21px;
+  background-size: 200px 640px;
+  background-repeat: no-repeat;
+}
+
+.contact-div {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.contact-paragraph {
+  font-family: "Poppins", sans-serif;
+  color: #ebebff;
+  padding: 10px;
+  line-height: 25px;
+}
+
+form {
+  width: 280px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+form > input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+  margin: 0 0 15px 0;
+}
+
+form > textarea {
+  border-radius: 4px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+}
+
+.contact-btn {
+  border: none;
+}
+
+.bottom-div {
+  height: 5px;
+  width: 130px;
+  background: #0d151e;
+  border-radius: 4px;
+  margin: 0 auto;
 }
