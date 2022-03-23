@@ -179,21 +179,11 @@
                 <p class="contact-paragraph">
                     If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it 
                 </p>
-                <form action="/contact-me" method="post">
-                    <ul class="contact">
-                        <li class="form-contact">
-                            <input type="text" name="name" placeholder="Type Your Name">
-                        </li>
-                        <li class="form-contact">
-                            <input type="email" name="email" placeholder="Type your email">
-                        </li>
-                        <li class="contact-form">
-                            <textarea name="message" cols="35" rows="10">Type your message</textarea>
-                        </li>
-                        <li class="contact-form">
-                            <button type="submit" class="btn">Get it touch</button>
-                        </li>
-                    </ul>
+                <form action="https://formspree.io/f/{form_id}" method="post">
+                   <input type="text" name="name" maxlength="30" placeholder="Type Your Name" required>
+                   <input type="email" name="email" placeholder="nyiarq@gmail.com" required>
+                   <textarea name="message" cols="35" rows="10" maxlength="500" placeholder="Type your message" required></textarea>
+                   <button type="submit" class="btn contact-btn">Get it touch</button>
                 </form>
               </div>  
                 <div class="bottom-div"></div>

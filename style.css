@@ -449,37 +449,32 @@ body {
 form {
   width: 280px;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
-.form-contact {
-  padding: 10px 0;
+form > input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+  margin: 0 0 15px 0;
 }
 
-.form-contact input {
-  border-radius: 8px;
-  width: 280px;
-  height: 48px;
-  padding: 5px;
+form > textarea {
+  border-radius: 4px;
+  width: 100%;
+  padding: 15px;
   border: none;
 }
 
-.contact-form > textarea {
-  border-radius: 15px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  width: 280px;
-  padding: 10px;
-  border: none;
-}
-
-.contact-form .btn {
+.contact-btn {
   border: none;
 }
 
 .bottom-div {
   height: 5px;
-  width: 140px;
-  background-color: #0d151e;
+  width: 130px;
+  background: #0d151e;
+  border-radius: 4px;
   margin: 0 auto;
-  border-radius: 5px;
 }
