@@ -1,6 +1,6 @@
-/* stylelint-disable block-closing-brace-empty-line-before */
-/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable CssSyntaxError */
 /* stylelint-disable no-missing-end-of-source-newline */
+/* stylelint-disable */
 * {
   margin: 0;
   padding: 0;
@@ -72,13 +72,6 @@ body {
   margin: 25px 0;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 200px;
-}
-
 .flex-container .fa-brands {
   font-size: 18px;
 }
@@ -93,10 +86,12 @@ body {
   font-weight: 500;
   background-color: #fff;
   margin: 20px 0;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: #6070ff;
+  color: #dfe1e6;
 }
 
 .grid-container {
@@ -151,6 +146,7 @@ body {
   margin: 0 auto;
   font-family: sans-serif;
   width: 500px;
+  padding: 0 20px;
 }
 
 .identification h3 {
@@ -165,6 +161,7 @@ body {
   align-items: center;
   font-weight: 800;
   font-size: 11px;
+  max-width: 250px;
 }
 
 .flex-container .title-bolder {
@@ -187,24 +184,25 @@ body {
 .text p {
   margin: 5px 0;
   color: rgb(63, 64, 62);
+  line-height: 28px;
 }
 
 .title-about {
   background-color: #fff;
-  margin-top: 40px;
-  padding: 20px;
   border-top-right-radius: 90px;
+  margin-top: 70px;
 }
 
 .about {
   display: flex;
-  justify-content: left;
   align-items: center;
-  margin: 0 155px;
+  justify-content: flex-end;
+  margin: 0 5px;
+  padding: 0 200px;
 }
 
 .about-left {
-  padding: 0 30px;
+  padding-right: 150px;
 }
 
 .about h2 {
@@ -218,6 +216,7 @@ body {
   margin-bottom: 10px;
   font-size: 16px;
   color: #344563;
+  line-height: 28px;
 }
 
 .contact {
@@ -251,7 +250,6 @@ body {
   margin-top: 15px;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 .list-item a {
   text-decoration: none;
   color: black;
@@ -344,7 +342,7 @@ form > textarea {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: #e5e5e5;
   }
@@ -460,10 +458,11 @@ form > textarea {
   .grid-card {
     background-color: white;
     padding: 15px 5px;
-    margin: 0 20px;
+    margin: 0 auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
   }
 
   .responsive-backgroundImage {
@@ -478,6 +477,7 @@ form > textarea {
   .identification {
     margin: 15px 10px;
     font-family: sans-serif;
+    max-width: 300px;
   }
 
   .identification h3 {
@@ -493,7 +493,7 @@ form > textarea {
     font-weight: 800;
     font-size: 11px;
     margin-left: 20px;
-
+    max-width: 200px;
   }
 
   .flex-container .title-bolder {
@@ -547,6 +547,10 @@ form > textarea {
     align-items: center;
   }
 
+  .about-left {
+    padding: 0 24px;
+  }
+
   .about h2 {
     padding-top: 75px;
     margin-bottom: 20px;
@@ -558,6 +562,7 @@ form > textarea {
     margin-bottom: 10px;
     font-size: 16px;
     color: #344563;
+    line-height: 28px;
   }
 
   .contact {
@@ -582,7 +587,7 @@ form > textarea {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    padding: 15px;
+    padding: 0 36px;
   }
 
   .list-item {
@@ -604,7 +609,6 @@ form > textarea {
     width: 300px;
   }
 
-  /* stylelint-disable-next-line no-descending-specificity */
   .list-item a {
     text-decoration: none;
     color: black;
