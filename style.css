@@ -436,7 +436,7 @@ form > textarea {
   }
 
   .container .text-myName {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
     font-weight: 700;
@@ -451,6 +451,8 @@ form > textarea {
     color: #344563;
     margin: 10px 0;
     z-index: 99;
+    /* stylelint-disable-next-line CssSyntaxError */
+    max-width: 400px;
   }
 
   .anim .container .flex-container .fa-brands {
