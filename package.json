@@ -1,24 +1,5 @@
 {
-  "name": "portfolio-set-up-and-mobile-version",
-  "version": "1.0.0",
-  "description": "If you are not familiar with linters, read [root level README](../README.md).",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/B77748/Portfolio-set-up-and-mobile-version.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/B77748/Portfolio-set-up-and-mobile-version/issues"
-  },
-  "homepage": "https://github.com/B77748/Portfolio-set-up-and-mobile-version#readme",
   "devDependencies": {
-    "hint": "^6.1.10",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
