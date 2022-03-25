@@ -29,12 +29,15 @@ body {
 }
 
 .link {
-  transition: background-color 2s;
+  transition: all 2s;
+  border-radius: 5px;
+  padding: 10px;
   text-decoration: none;
 }
 
 .link:hover {
   background-color: #5E6C84;
+  color: #e5e5e5;
 }
 
 .logo {
@@ -60,6 +63,17 @@ body {
   margin: 20px 0;
   font-size: 48px;
   color: #091e42;
+  animation: animate 2s ease-in-out 1;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0.3);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
 .container .text-identification {
