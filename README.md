@@ -3,6 +3,8 @@
 
 The project composes of the mobile version of my personal portfolio. The projects experience is displayed using grid. The flexbox is also used on child cards.
 
+# Live
+
 # Built With
 
 •	HTML

@@ -80,7 +80,7 @@ body {
   line-height: 28px;
   font-size: 20px;
   color: #344563;
-  width: 820px;
+  max-width: 800px;
   padding: 30px 0;
 }
 
@@ -407,6 +407,7 @@ form > textarea {
 @media screen and (max-width: 782px) {
   body {
     background-color: #e5e5e5;
+    overflow-x: hidden;
   }
 
   .container-flex {
@@ -415,6 +416,7 @@ form > textarea {
     align-items: center;
     padding: 10px;
     background-color: #fff;
+    max-width: 450px;
   }
 
   .container-background {
@@ -435,22 +437,22 @@ form > textarea {
     display: none;
   }
 
+  .anim {
+    margin: 40px 0;
+  }
+
   .container-flex button {
     display: block;
     color: #6070ff;
     border: none;
   }
 
-  .anim {
-    position: relative;
-  }
-
   .anim .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: url(./Image/ResponsiveBackground.jpg) 0 43px;
-    background-size: 315px 462px;
+    background: url(./Image/ResponsiveBackground.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
@@ -459,7 +461,7 @@ form > textarea {
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
     font-weight: 700;
-    margin-top: 90px;
+    margin: 90px 40px 0 40px;
     z-index: 99;
   }
 
@@ -468,7 +470,7 @@ form > textarea {
     font-size: 16px;
     font-weight: 400;
     color: #344563;
-    margin: 10px 0;
+    margin: 10px 40px;
     z-index: 99;
     /* stylelint-disable-next-line CssSyntaxError */
     max-width: 400px;
@@ -489,6 +491,7 @@ form > textarea {
     width: fit-content;
     border-radius: 10px;
     transition: all 1s;
+    margin: 0 40px;
   }
 
   .container a:hover {
@@ -506,7 +509,7 @@ form > textarea {
     text-decoration: none;
     background-color: #ebebff;
     text-align: center;
-    padding: 5px 7px;
+    padding: 5px 4px;
     border-radius: 10px;
     font-size: 13px;
     margin-right: 10px;
@@ -530,6 +533,7 @@ form > textarea {
   }
 
   .responsive-backgroundImage {
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -556,7 +560,7 @@ form > textarea {
     align-items: center;
     font-weight: 800;
     font-size: 11px;
-    margin-left: 20px;
+    margin-left: 40px;
     max-width: 200px;
   }
 
@@ -570,7 +574,7 @@ form > textarea {
   }
 
   .flex-width .point {
-    width: 5px;
+    max-width: 5px;
     height: 5px;
     background-color: gray;
     border-radius: 50%;
@@ -646,7 +650,7 @@ form > textarea {
   .grid-icons {
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    max-width: 150px;
     padding: 10px 0;
     color: #505f79;
   }
@@ -655,7 +659,7 @@ form > textarea {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    margin-left: -20px;
+    margin-left: 32px;
     padding: 0;
     width: 60%;
   }
@@ -717,7 +721,7 @@ form > textarea {
   }
 
   form {
-    width: 280px;
+    max-width: 280px;
     margin: 0 auto;
     padding-bottom: 10px;
   }
@@ -743,7 +747,7 @@ form > textarea {
 
   .bottom-div {
     height: 5px;
-    width: 130px;
+    max-width: 130px;
     background: #0d151e;
     border-radius: 4px;
     margin: 0 auto;
