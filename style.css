@@ -461,7 +461,7 @@ form > textarea {
     font-family: 'Poppins', sans-serif;
     color: #172b4d;
     font-weight: 700;
-    margin-top: 90px 40px 0 40px;
+    margin: 90px 40px 0 40px;
     z-index: 99;
   }
 
