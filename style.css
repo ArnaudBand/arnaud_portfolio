@@ -134,6 +134,12 @@ body {
   border-radius: 10px;
   font-size: 13px;
   margin-right: 10px;
+  transition: all 4s;
+}
+
+.skills:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .grid-container-card {
