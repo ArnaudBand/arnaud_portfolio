@@ -5,12 +5,13 @@ The project composes of the mobile version of my personal portfolio. The project
 
 # Live
 
-https://b77748.github.io/arnaud_portfolio.github.io/
+https://b77748.github.io/arnaud_portfolio/
 
 # Built With
 
 -	HTML
 -	CSS
+- Javascript
 -	Linters
 
 # Getting Started
@@ -24,5 +25,5 @@ Node js install
 👤 Author1
 - GitHub: https://github.com/B77748 
 - Twitter: https://twitter.com/@ba104781 
-- LinkedIn: https:linkedin.com/in/arnaud-bandonkeye-893a2b228 
+- LinkedIn: https://linkedin.com/in/arnaud-bandonkeye-893a2b228 
 
