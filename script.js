@@ -17,3 +17,9 @@ closeMenu.addEventListener('click', () => {
     topLink[i].style.display = 'none';
   }
 });
+
+for (let i = 0; i < topLink.length; i++) {
+  topLink[i].addEventListener('click', () => {
+    rightSide.style.display = 'none';
+  });
+}

@@ -425,11 +425,12 @@ form > textarea {
     display: none;
     justify-content: space-between;
     background-color: rgba(96, 112, 255, 0.9);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 5350px;
+    height: 600px;
+    z-index: 100;
   }
 
   .desktop-flex-left {
@@ -728,6 +729,7 @@ form > textarea {
     border-radius: 8px;
     margin: 10px 0;
     width: 300px;
+    padding: 10px;
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
