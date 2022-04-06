@@ -81,6 +81,49 @@ body {
   }
 }
 
+.btn-popup {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px 0;
+  transition: all 0.5s;
+  border: 2px solid #7f8cff;
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.popup {
+  background-color: #fff;
+  width: 50%;
+  padding: 30px 20px;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  display: none;
+  font-family: "Poppins",sans-serif;
+  z-index: 99999;
+  /* text-align: center; */
+}
+
+.titleDisplay {
+  color: #000;
+  font-size: 28px;
+}
+
+.imgPopup {
+  height: auto;
+}
+
+.flex-popup {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
 .container .text-identification {
   line-height: 28px;
   font-size: 20px;
@@ -719,26 +762,38 @@ form > textarea {
   }
 
   .popup {
-    background-color: #fff;
-    width: 420px;
-    padding: 30px 40px;
+    width: 100vw;
+    /* height: 100vh; */
+    backdrop-filter: blur(7px);
+    background-color: #e5e5e5e6;
+    z-index: 999;
+    display: none;
     position: fixed;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .newElement {
+    background-color: #fff;
+    width: 380px;
+    padding: 30px 20px;
     border-radius: 8px;
     display: none;
     font-family: "Poppins",sans-serif;
-    text-align: center;
+    
  }
 
  .titleDisplay {
     color: #000;
+    font-size: 28px;
  }
-
- .skillDisplay {
+ 
+ .flex-popup {
    display: flex;
    justify-content: space-between;
+   align-items: center;
  }
 
   .fleck-title {
