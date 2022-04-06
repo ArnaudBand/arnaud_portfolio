@@ -67,14 +67,19 @@ function displayElement(num) {
     textDescription.style.fontSize = 18 + "px"
     textDescription.style.margin = 'auto'
     const divBtn = document.createElement('div')
-    let btnCard = document.createElement('button')
+    let btnCard
+    let arr = popupObj[num].technologies
     
         
             titleDisplay.textContent = `${popupObj[num].name}`;
             imgPopup.setAttribute('src', popupObj[num].featured_image)
             textDescription.textContent = `${popupObj[num].description}`
             titleDisplay.setAttribute('class', 'titleDisplay')
-            divBtn.append(btnCard)
+            for (i = 0; i < arr.length; i++) {
+                btnCard = document.createElement('button')
+                btnCard.textContent = arr[i]
+                divBtn.append(btnCard)
+            }
             newElement.append(titleDisplay, imgPopup, textDescription, divBtn)
     
     
