@@ -1010,7 +1010,7 @@ form > textarea {
   }
 
   form > textarea {
-    order: 2px solid #fff;
+    border: 2px solid #fff;
     border-radius: 4px;
     display: block;
     font-size: 12px;
@@ -1018,7 +1018,6 @@ form > textarea {
     margin: 10px 0;
     width: 100%;
   }
-
 
   .bottom-div {
     height: 5px;
@@ -1028,37 +1027,36 @@ form > textarea {
     margin: 0 auto;
   }
 
-  
-.save-input {
-  display: flex;
-  flex-direction: column;
-}
+  .save-input {
+    display: flex;
+    flex-direction: column;
+  }
 
-.save-input input {
-  border: 2px solid #fff;
-  border-radius: 4px;
-  display: block;
-  font-size: 12px;
-  padding: 10px;
-  margin: 10px 0;
-  width: 100%;
-}
+  .save-input input {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+  }
 
-.save-input input:focus {
-  outline: 0;
-}
+  .save-input input:focus {
+    outline: 0;
+  }
 
-.save-input.success input {
-  border-color: #09c372;
-}
+  .save-input.success input {
+    border-color: #09c372;
+  }
 
-.save-input.error input {
-  border-color: #000;
-}
+  .save-input.error input {
+    border-color: rgb(255, 3, 3);
+  }
 
-.save-input .error {
-  color: #000;
-  font-size: 11px;
-  height: 13px;
-}
+  .save-input .error {
+    color: #000;
+    font-size: 11px;
+    height: 13px;
+  }
 }
