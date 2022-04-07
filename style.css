@@ -94,23 +94,34 @@ body {
 }
 
 .popup {
-  background-color: #fff;
-  width: 50%;
-  padding: 30px 20px;
+  /* background-color: #fff; */
+  /* width: 50%; */
+  padding: 20px;
   position: fixed;
-  transform: translate(-50%,-50%);
-  left: 50%;
-  top: 50%;
+  /* transform: translate(-50%,-50%); */
+  /* left: 50%;
+  top: 50%; */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
   border-radius: 8px;
   display: none;
   font-family: "Poppins",sans-serif;
   z-index: 99999;
-  /* text-align: center; */
+  text-align: center;
+  background-color: white;
+  border-radius: 16px;
+  margin-top: 60px;
 }
 
 .titleDisplay {
-  color: #000;
-  font-size: 28px;
+  color: #091e42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .imgPopup {
@@ -122,7 +133,6 @@ body {
  justify-content: space-between;
  align-items: center;
 }
-
 
 .container .text-identification {
   line-height: 28px;
@@ -762,17 +772,12 @@ form > textarea {
   }
 
   .popup {
-    width: 100vw;
+    /* width: 100vw; */
     /* height: 100vh; */
     backdrop-filter: blur(7px);
-    background-color: #e5e5e5e6;
+    /* background-color: #e5e5e5e6; */
     z-index: 999;
     display: none;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
   }
 
   .newElement {
@@ -786,8 +791,10 @@ form > textarea {
  }
 
  .titleDisplay {
-    color: #000;
-    font-size: 28px;
+    color: #172b4d;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
  }
  
  .flex-popup {
