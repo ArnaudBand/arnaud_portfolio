@@ -95,28 +95,29 @@ body {
 
 .popup {
   padding: 20px;
-  width: 950px;
+  width: 100vw;
   position: fixed;
+  left: 0;
   top: 0;
   bottom: 0;
-  right: 150px;
+  right: 0;
   display: none;
   font-family: "Poppins", sans-serif;
   z-index: 99999;
   text-align: center;
-  backdrop-filter: blur(4px);
-  background-color: #e5e5e5e6;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 16px;
-  margin: 30px;
 }
 
 .newElement {
   background-color: #fff;
-  width: 0%;
+  width: 70%;
   padding: 30px 20px;
   border-radius: 8px;
   display: none;
   font-family: "Poppins", sans-serif;
+  margin: 0 auto;
 }
 
 .titleDisplay {
@@ -793,12 +794,12 @@ form > textarea {
   .popup {
     position: fixed;
     top: 20px;
-    left: 23px;
-    backdrop-filter: blur(4px);
-    background-color: #e5e5e5e6;
+    left: 0;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.3);
     z-index: 999;
     display: none;
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     overflow-y: scroll;
   }

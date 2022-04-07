@@ -97,7 +97,7 @@ function displayElement(num) {
   borderDiv.style.width = '200px';
   borderDiv.style.textAlign = 'center';
   borderDiv.style.backgroundColor = 'rgba(235, 236, 240, 1)';
-  borderDiv.style.margin = '20px 0 20px 90px';
+  borderDiv.style.margin = '20px 90px 20px 90px';
   const linkBtn = document.createElement('a');
   const linkImage = document.createElement('img');
   linkImage.setAttribute('src', objImage[0]);
