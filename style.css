@@ -94,35 +94,69 @@ body {
 }
 
 .popup {
-  background-color: #fff;
-  width: 50%;
-  padding: 30px 20px;
+  padding: 20px;
+  width: 950px;
   position: fixed;
-  transform: translate(-50%,-50%);
-  left: 50%;
-  top: 50%;
+  top: 0;
+  bottom: 0;
+  right: 150px;
+  display: none;
+  font-family: "Poppins", sans-serif;
+  z-index: 99999;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  background-color: #e5e5e5e6;
+  border-radius: 16px;
+  margin: 30px;
+}
+
+.newElement {
+  background-color: #fff;
+  width: 75%;
+  padding: 30px 20px;
   border-radius: 8px;
   display: none;
-  font-family: "Poppins",sans-serif;
-  z-index: 99999;
-  /* text-align: center; */
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
 }
 
 .titleDisplay {
-  color: #000;
-  font-size: 28px;
+  color: #091e42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .imgPopup {
-  height: auto;
+  height: 286px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.smallTitle {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.textDescription {
+  font-size: 15px;
+  line-height: 24px;
+  width: 60%;
+  margin-right: 15px;
+}
+
+.flexText {
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-popup {
- display: flex;
- justify-content: space-between;
- align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 .container .text-identification {
   line-height: 28px;
@@ -243,7 +277,6 @@ body {
 
 .flex-width {
   display: flex;
-  /* stylelint-disable-next-line CssSyntaxError */
   justify-content: space-between;
   align-items: center;
   width: 270px;
@@ -273,7 +306,6 @@ body {
 
 .flex-width_1 {
   display: flex;
-  /* stylelint-disable-next-line CssSyntaxError */
   justify-content: space-between;
   align-items: center;
   width: 270px;
@@ -301,7 +333,6 @@ body {
   border-radius: 50%;
   margin: 0 8px;
 }
-
 
 .text p {
   margin: 20px 0;
@@ -762,48 +793,58 @@ form > textarea {
   }
 
   .popup {
-    width: 100vw;
-    /* height: 100vh; */
-    backdrop-filter: blur(7px);
+    position: fixed;
+    top: 20px;
+    left: 23px;
+    backdrop-filter: blur(4px);
     background-color: #e5e5e5e6;
     z-index: 999;
     display: none;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    width: 85%;
+    margin: 0 auto;
+    overflow-y: scroll;
   }
 
   .newElement {
     background-color: #fff;
-    width: 380px;
+    width: 90%;
     padding: 30px 20px;
     border-radius: 8px;
     display: none;
-    font-family: "Poppins",sans-serif;
-    
- }
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+  }
 
- .titleDisplay {
-    color: #000;
-    font-size: 28px;
- }
- 
- .flex-popup {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
+  .flexText {
+    flex-direction: column;
+  }
 
-  .fleck-title {
-    font-family: Poppins;
+  .titleDisplay {
+    color: #172b4d;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
-    text-align: left;
+  }
 
+  .textDescription {
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .flex-popup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fleck-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .title-about {
