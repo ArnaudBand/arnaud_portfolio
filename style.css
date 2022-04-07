@@ -101,7 +101,7 @@ body {
   bottom: 0;
   right: 150px;
   display: none;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   z-index: 99999;
   text-align: center;
   backdrop-filter: blur(4px);
@@ -116,8 +116,7 @@ body {
   padding: 30px 20px;
   border-radius: 8px;
   display: none;
-  font-family: "Poppins",sans-serif;
-  
+  font-family: "Poppins", sans-serif;
 }
 
 .titleDisplay {
@@ -152,9 +151,9 @@ body {
 }
 
 .flex-popup {
- display: flex;
- justify-content: space-between;
- align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container .text-identification {
@@ -332,7 +331,6 @@ body {
   border-radius: 50%;
   margin: 0 8px;
 }
-
 
 .text p {
   margin: 20px 0;
@@ -811,41 +809,40 @@ form > textarea {
     padding: 30px 20px;
     border-radius: 8px;
     display: none;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0 auto;
-    
- }
+  }
 
- .flexText {
-   flex-direction: column;
- }
- .titleDisplay {
+  .flexText {
+    flex-direction: column;
+  }
+
+  .titleDisplay {
     color: #172b4d;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
- }
+  }
 
- .textDescription {
-   font-size: 15px;
-   line-height: 24px;
-   width: 100%;
- }
- 
- .flex-popup {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
+  .textDescription {
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .flex-popup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   .fleck-title {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-
   }
 
   .title-about {
