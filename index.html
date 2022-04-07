@@ -244,27 +244,39 @@
           with it
         </p>
         <form action="https://formspree.io/f/mlezlypn" method="post">
-          <input
+          <div class="save-input">
+            <input
             type="text"
             name="name"
+            class="username"
             maxlength="30"
-            placeholder="Type Your Name"
-            required
+            placeholder="Full Name"
+            
           />
-          <input
-            type="email"
-            name="email"
+          <div class="error"></div>
+          </div>
+          <div class="save-input">
+            <input
+            type="text"
+            name="type your mail"
+            class="user_mail"
             placeholder="Enter your email"
-            required
+            
           />
-          <textarea
+          <div class="error"></div>
+          </div>
+          <div class="save-input">
+            <textarea
             name="message"
             cols="35"
             rows="10"
+            class="comment_text"
             maxlength="500"
             placeholder="Type your message"
-            required
           ></textarea>
+          <div class="error"></div>
+          </div>
+          
           <button type="submit" class="btn contact-btn">Get it touch</button>
         </form>
       </div>
@@ -276,5 +288,6 @@
     <!-- End of sections tags -->
     <script src="script.js"></script>
     <script src="popup.js"></script>
+    <script src="validate_form.js"></script>
   </body>
 </html>
