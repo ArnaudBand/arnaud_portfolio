@@ -81,6 +81,82 @@ body {
   }
 }
 
+.btn-popup {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px 0;
+  transition: all 0.5s;
+  border: 2px solid #7f8cff;
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.popup {
+  padding: 20px;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  font-family: "Poppins", sans-serif;
+  z-index: 99999;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+}
+
+.newElement {
+  background-color: #fff;
+  width: 70%;
+  padding: 30px 20px;
+  border-radius: 8px;
+  display: none;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+.titleDisplay {
+  color: #091e42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.imgPopup {
+  height: 286px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.smallTitle {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.textDescription {
+  font-size: 15px;
+  line-height: 24px;
+  width: 60%;
+}
+
+.flexText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-popup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container .text-identification {
   line-height: 28px;
   font-size: 20px;
@@ -200,7 +276,6 @@ body {
 
 .flex-width {
   display: flex;
-  /* stylelint-disable-next-line CssSyntaxError */
   justify-content: space-between;
   align-items: center;
   width: 270px;
@@ -221,6 +296,36 @@ body {
 }
 
 .flex-width .point {
+  width: 5px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.flex-width_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  margin-left: 30px;
+}
+
+.flex-width_1 .title-bolder {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #344563;
+}
+
+.flex-width_1 .title-non-bolder {
+  margin: 10px 0;
+  color: #6b778c;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.flex-width_1 .point {
   width: 5px;
   height: 5px;
   background-color: gray;
@@ -571,6 +676,7 @@ form > textarea {
     grid-template-rows: repeat(4, 1fr);
     gap: 70px;
     margin-bottom: 10px;
+    position: relative;
   }
 
   .grid-card {
@@ -581,6 +687,7 @@ form > textarea {
     display: flex;
     flex-direction: column;
     max-width: 400px;
+    position: relative;
   }
 
   .responsive-backgroundImage {
@@ -632,6 +739,23 @@ form > textarea {
     margin: 0;
   }
 
+  .flex-width_1 .title-bolder {
+    margin: 10px 0;
+  }
+
+  .flex-width_1 .title-non-bolder {
+    margin: 10px 0;
+    color: rgb(148, 147, 147);
+  }
+
+  .flex-width_1 .point {
+    max-width: 5px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0;
+  }
+
   .text p {
     margin: 5px 0;
     color: rgb(63, 64, 62);
@@ -653,6 +777,73 @@ form > textarea {
   .btn:hover {
     background-color: #6070ff;
     color: #fff;
+  }
+
+  .btn-popup {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 8px 0;
+    transition: all 0.5s;
+    border: 2px solid #7f8cff;
+    color: #6070ff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #fff;
+  }
+
+  .popup {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 999;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: scroll;
+  }
+
+  .newElement {
+    background-color: #fff;
+    width: 90%;
+    padding: 30px 20px;
+    border-radius: 8px;
+    display: none;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+  }
+
+  .flexText {
+    flex-direction: column;
+  }
+
+  .titleDisplay {
+    color: #172b4d;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .textDescription {
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .flex-popup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fleck-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .title-about {
