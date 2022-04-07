@@ -1,8 +1,3 @@
-/* eslint-disable no-restricted-globals */
-/* eslint-disable no-func-assign */
-/* eslint-disable camelcase */
-/* eslint-disable no-use-before-define */
-/* eslint-disable no-plusplus */
 const btnPopup = document.querySelectorAll('.btn-popup');
 const popupDisplay = document.querySelector('.popup');
 
@@ -62,10 +57,12 @@ const popupObj = [
 const objImage = ['./Image/Icon.png', './Image/Vector.png'];
 
 function clickEvent() {
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < btnPopup.length; i++) {
     btnPopup[i].addEventListener('click', () => {
       popupDisplay.style.display = 'block';
       newElement.style.display = 'block';
+      // eslint-disable-next-line no-use-before-define
       displayElement(i);
     });
   }
@@ -87,6 +84,7 @@ function displayElement(num) {
   const imgPopup = document.createElement('img');
   imgPopup.setAttribute('class', 'imgPopup');
   const flexText = document.createElement('div');
+  // eslint-disable-next-line camelcase
   const flexText_2 = document.createElement('div');
   const textDescription = document.createElement('p');
   textDescription.setAttribute('class', 'textDescription');
@@ -136,6 +134,7 @@ function displayElement(num) {
   textDescription.textContent = `${popupObj[num].description}`;
   titleDisplay.setAttribute('class', 'titleDisplay');
   textDescription.style.textAlign = 'left';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < arr.length; i++) {
     btnCard = document.createElement('button');
     btnCard.textContent = arr[i];
@@ -173,8 +172,10 @@ function displayElement(num) {
   );
 }
 
+// eslint-disable-next-line no-use-before-define
 btnClose.addEventListener('click', reload);
 
 function reload() {
+  // eslint-disable-next-line no-func-assign, no-restricted-globals
   reload = location.reload();
 }
