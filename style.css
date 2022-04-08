@@ -520,6 +520,38 @@ form > textarea {
   margin: 0 auto;
 }
 
+.save-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-input input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.save-input input:focus {
+  outline: 0;
+}
+
+.save-input.success input {
+  border-color: #09c372;
+}
+
+.save-input.error input {
+  border-color: #ff3860;
+}
+
+.save-input .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
 @media screen and (max-width: 782px) {
   body {
     background-color: #e5e5e5;
@@ -978,14 +1010,13 @@ form > textarea {
   }
 
   form > textarea {
+    border: 2px solid #fff;
     border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0;
     width: 100%;
-    padding: 15px;
-    border: none;
-  }
-
-  .contact-btn {
-    border: none;
   }
 
   .bottom-div {
@@ -994,5 +1025,38 @@ form > textarea {
     background: #0d151e;
     border-radius: 4px;
     margin: 0 auto;
+  }
+
+  .save-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .save-input input {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .save-input input:focus {
+    outline: 0;
+  }
+
+  .save-input.success input {
+    border-color: #09c372;
+  }
+
+  .save-input.error input {
+    border-color: rgb(255, 3, 3);
+  }
+
+  .save-input .error {
+    color: #000;
+    font-size: 11px;
+    height: 13px;
   }
 }
