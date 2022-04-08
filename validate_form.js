@@ -65,3 +65,31 @@ form.addEventListener('submit', (e) => {
   }
   updateInput();
 });
+
+const contactBtn = document.querySelector('.contact-btn');
+
+function storeData() {
+  const saveName = userName.value;
+  const saveMail = userMail.value;
+  const saveComment = commentText.value;
+
+  const dataobject = { Name: saveName, Mail: saveMail, Comment: saveComment };
+
+  localStorage.setItem('datasave', JSON.stringify(dataobject));
+}
+
+contactBtn.addEventListener('click', storeData);
+userName.addEventListener('input', storeData);
+userMail.addEventListener('input', storeData);
+commentText.addEventListener('input', storeData);
+
+// eslint-disable-next-line no-unused-vars
+window.addEventListener('load', (event) => {
+  if (localStorage.getItem('datasave') != null) {
+    const datarestore = localStorage.getItem('datasave');
+    const dataobject = JSON.parse(datarestore);
+    userName.value = dataobject.Name;
+    userMail.value = dataobject.Mail;
+    commentText.value = dataobject.Comment;
+  }
+});
