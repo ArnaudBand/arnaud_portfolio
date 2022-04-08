@@ -65,3 +65,18 @@ form.addEventListener('submit', (e) => {
   }
   updateInput();
 });
+
+const contactBtn = document.querySelector('.contact-btn');
+
+// eslint-disable-next-line no-use-before-define
+contactBtn.addEventListener('click', storeData);
+
+function storeData() {
+  const saveName = userName.value;
+  const saveMail = userMail.value;
+  const saveComment = commentText.value;
+
+  localStorage.setItem('name', saveName);
+  localStorage.setItem('mail', saveMail);
+  localStorage.setItem('Comment', saveComment);
+}
