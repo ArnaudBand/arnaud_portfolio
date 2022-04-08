@@ -1,9 +1,9 @@
 /* eslint-disable linebreak-style */
 const form = document.querySelector('form');
 // eslint-disable-next-line linebreak-style
-const userName = document.querySelector('.username');
+const userName = document.querySelector('username');
 const userMail = document.querySelector('.user_mail');
-const commentText = document.querySelector('.comment_text');
+const commentText = document.querySelector('comment_text');
 function setError(inputValue, errorMessage) {
   const inputGuide = inputValue.parentElement;
   const errorDisplay = inputGuide.querySelector('.error');

@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const btnPopup = document.querySelectorAll('.btn-popup');
 const popupDisplay = document.querySelector('.popup');
 
@@ -73,7 +74,7 @@ clickEvent();
 function displayElement(num) {
   const titleDisplay = document.createElement('h2');
 
-  btnClose.textContent = 'X';
+  btnClose.textContent = '';
   btnClose.style.fontSize = '20px';
   btnClose.style.backgroundColor = 'rgba(255, 255, 255, 1)';
   btnClose.style.border = 'none';
@@ -116,7 +117,7 @@ function displayElement(num) {
 
   const sourceBtn = document.createElement('a');
   const sourceImage = document.createElement('img');
-  sourceImage.setAttribute('src', objImage[1]);
+  sourceImage.setAttribute('scr', objImage[1]);
   sourceImage.style.height = '12px';
   sourceImage.style.width = '12px';
   sourceImage.style.marginTop = '8px';
