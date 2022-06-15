@@ -9,48 +9,47 @@ popupDisplay.appendChild(newElement);
 
 const popupObj = [
   {
-    name: 'Tonic',
+    name: 'Maths Magicians',
     small_title: 'Canopy . Full Stack Dev . 2018',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    featured_image: './Image/Snapshoot.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    link_live: 'https://b77748.github.io/arnaud_portfolio/',
-    link_source: 'https://github.com/B77748/arnaud_portfolio',
+      "I created a full website for the Math magicians app, consisting of several pages and using the components you already created.",
+    featured_image: 'https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/calculator.png',
+    technologies: ['React', 'CSS', 'JavaScript'],
+    link_live: 'https://github.com/ArnaudBand/math-magicians',
+    link_source: 'https://math-1.herokuapp.com/',
   },
 
   {
-    name: 'Multi-Post Stories',
+    name: 'Book Store',
     small_title: 'Facebook . Full Stack Dev . 2018',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "The Bookstore is a website similar to the "Awesome Books" website built in the previous module. You will create an MVP version of it that allows you to:  Display a list of books,  Add a book, Remove a selected book. By building this application, you will learn how to use React and Redux.",
     featured_image: './Image/third.png',
-    technologies: ['HTML', 'Ruby on Rail', 'CSS', 'JavaScript'],
-    link_live: 'https://b77748.github.io/arnaud_portfolio/',
-    link_source: 'https://github.com/B77748/arnaud_portfolio',
+    technologies: ['React', 'Redux', 'CSS', 'JavaScript'],
+    link_live: 'https://math-2.herokuapp.com/',
+    link_source: 'https://github.com/ArnaudBand/book-store',
   },
 
   {
-    name: 'Facebook 360',
+    name: 'Todo List',
     small_title: 'Facebook . Full Stack Dev . 2018',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Todo_list is an app build using html, and CSS. I have used also Webpack and ES6 JavaScript.",
     featured_image: './Image/portfolio.jpg',
-    technologies: ['HTML', 'Ruby on Rail', 'CSS', 'JavaScript'],
-    link_live: 'https://b77748.github.io/arnaud_portfolio/',
-    link_source: 'https://github.com/B77748/arnaud_portfolio',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    link_live: 'https://arnaudband.github.io/Microverse-_Todo_list/dist/',
+    link_source: 'https://github.com/ArnaudBand/Microverse-_Todo_list',
   },
 
   {
-    name: 'Uber Navigation',
+    name: 'Weather app',
     small_title: 'Facebook . Full Stack Dev . 2018',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Weather App build using JavaScript fetch information in Api.",
     featured_image: './Image/second.png',
-    technologies: ['HTML', 'Ruby on Rail', 'CSS', 'JavaScript'],
-    link_live:
-      'https://b77748.github.io/arnaud_portfolio/',
-    link_source: 'https://github.com/B77748/arnaud_portfolio',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    link_live: 'https://arnaudband.github.io/myfirstapp/',
+    link_source: 'https://github.com/ArnaudBand/myfirstapp',
   },
 ];
 
