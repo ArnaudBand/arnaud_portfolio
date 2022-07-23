@@ -23,7 +23,7 @@ const popupObj = [
     name: 'Book Store',
     small_title: 'Facebook . Full Stack Dev . 2018',
     description:
-      "The Bookstore is a website similar to the "Awesome Books" website built in the previous module. You will create an MVP version of it that allows you to:  Display a list of books,  Add a book, Remove a selected book. By building this application, you will learn how to use React and Redux.",
+      "The Bookstore is a website similar to the Awesome Books website built in the previous module. You will create an MVP version of it that allows you to:  Display a list of books,  Add a book, Remove a selected book. By building this application, you will learn how to use React and Redux.",
     featured_image: './Image/third.png',
     technologies: ['React', 'Redux', 'CSS', 'JavaScript'],
     link_live: 'https://math-2.herokuapp.com/',
